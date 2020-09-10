@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(69, 125, 223);
+}
+
+@media only screen and (max-width: 380px){
+    main{
+       width: 100%;
+       padding:auto;
+       margin-right: auto;
+       margin-left: auto;
+
+    }
+    .nav_container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* border: 1px solid red; */
+    }
+    .name{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        width: 40%;
+        /* border: 1px solid red; */
+        color: white;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav{
+        display: none;
+    }
+    .hum_button{
+        margin-bottom: 0px;
+        margin-top: 0px;
+        padding-right: 10px;
+
+    }
+    .search_center{
+        margin-top:10px ;
+        /* border: 1px solid red; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:40px;
+    }
+    .question_container{
+        display: none;
+    }
+    form{
+        /* border: 1px solid red; */
+        /* margin-top:7px; */
+        width: 90%;
+        height:100%;
+    }
+    .search_bar{
+        background-color: rgb(69, 125, 223);
+        width:80%;
+        height:70%; 
+        border-radius: 50px;
+        border: 2px solid rgb(181,226, 242,51%);
+        color:rgb(225, 225, 225,71%);
+        padding-left:20px;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        padding-right: 0px;
+
+    }
+    .search{
+        /* width: 20%; */
+        padding-right: 20px;
+    }
+    .heading_container{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        
+    }
+    .heading{
+        color:color:rgb(225, 225, 225,90%); ;
+    }
+
+
+
+
+}
